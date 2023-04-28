@@ -1,0 +1,55 @@
+body {
+    background: rgb(124, 124, 124);
+}
+
+.container {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 2px solid rgb(184, 184, 184);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 2px 25px;
+}
+
+nav {
+    height: 100%;
+    background: white;
+    border-radius: 16px;
+    padding: 5px 25px 60px 25px;
+    margin: 10px;
+}
+
+section {
+    max-width: 500px;
+    min-width: 500px;
+    box-sizing: border-box;
+}
+    section article {
+        background: white;
+        border-radius: 16px;
+        padding: 5px 25px;
+        margin: 10px;
+    }
+
+aside {
+    width: ;
+    height: 100%;
+    background: white;
+    border-radius: 16px;
+    padding: 5px 25px 60px 25px;
+    margin: 10px;
+}
+
+
+
